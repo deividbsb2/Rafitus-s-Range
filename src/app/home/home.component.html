@@ -1,115 +1,140 @@
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href=".">Home</a></li>
-    </ol>
-</nav>
 <div class="row">
     <div class="col-sm-6">
         <div class="table-responsive">
             <table class="table table-sm table-bordered">
                 <tbody>
-                <tr align="center" *ngFor="let row of rows">
-                    <td *ngFor="let cell of row.cells" [class]="cell.color">{{cell.name}}</td>
-                </tr>
+                    <tr align="center" *ngFor="let row of rows">
+                        <td *ngFor="let cell of row.cells" [class]="cell.color">{{cell.name}}</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
     <div class="col-sm-6">
-        <table class="table">
-            <thead>
-            <tr align="center">
-                <th scope="col">SHOVE</th>
-                <th scope="col">CALLING SHOVE</th>
-                <th scope="col">RESTEAL</th>
-                <th scope="col">CALLING RESTEAL</th>
-            </tr>
-            </thead>
-            <tbody align="center">
-            <tr>
-                <td scope="row">
-                    <label for="s4bbs"><strong>4bbs</strong></label>
-                    <select id="s4bbs" class="form-control" (change)="paint($event)">
-                        <option value="">Selecione</option>
-                        <option value="14">UTG</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="cs4bbs"><strong>4bbs</strong></label>
-                    <select id="cs4bbs" class="form-control" (change)="paint($event)">
-                        <option value="">Selecione</option>
-                        <option value="24">UTG+1</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="r4bbs"><strong>4bbs</strong></label>
-                    <select id="r4bbs" class="form-control">
-                        <option value="">Selecione</option>
-                        <option value="34">UTG+1</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="cr10bbs"><strong>10bbs</strong></label>
-                    <select id="cr10bbs" class="form-control">
-                        <option value="">Selecione</option>
-                        <option value="410">UTG</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td scope="row">
-                    <label for="s6bbs"><strong>6bbs</strong></label>
-                    <select id="s6bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="cs6bbs"><strong>6bbs</strong></label>
-                    <select id="cs6bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="r6bbs"><strong>6bbs</strong></label>
-                    <select id="r6bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="cr12bbs"><strong>12bbs</strong></label>
-                    <select id="cr12bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td scope="row">
-                    <label for="s8bbs"><strong>8bbs</strong></label>
-                    <select id="s8bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="cs8bbs"><strong>8bbs</strong></label>
-                    <select id="cs8bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="r8bbs"><strong>8bbs</strong></label>
-                    <select id="r8bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-                <td>
-                    <label for="cr14bbs"><strong>14bbs</strong></label>
-                    <select id="cr14bbs" class="form-control">
-                        <option value="">Selecione</option>
-                    </select>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+        <form [formGroup]="rangeForm">
+            <table class="table">
+                <thead>
+                    <tr align="center">
+                        <th scope="col">SHOVE</th>
+                        <th scope="col">CALLING SHOVE</th>
+                        <th scope="col">RESTEAL</th>
+                        <th scope="col">CALLING RESTEAL</th>
+                    </tr>
+                </thead>
+                <tbody align="center">
+                    <tr>
+                        <td scope="row">
+                            <label for="s4bbs">
+                                <strong>4bbs</strong>
+                            </label>
+                            <select class="form-control" formControlName="s4bbs" (change)="paint($event)">
+                                <option value="">Selecione</option>
+                                <option value="14">UTG</option>
+                            </select>
+                            <!-- <select name="s4bbs" class="form-control" [(ngModel)]="s4bbs" (change)="paint($event)">
+                                <option value="">Selecione</option>
+                                <option value="14">UTG</option>
+                            </select> -->
+                        </td>
+                        <td>
+                            <label for="cs4bbs">
+                                <strong>4bbs</strong>
+                            </label>
+                            <select formControlName="cs4bbs" class="form-control" (change)="paint($event)">
+                                <option value="">Selecione</option>
+                                <option value="24">UTG+1</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="r4bbs">
+                                <strong>4bbs</strong>
+                            </label>
+                            <select id="r4bbs" class="form-control">
+                                <option value="">Selecione</option>
+                                <option value="34">UTG+1</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cr10bbs">
+                                <strong>10bbs</strong>
+                            </label>
+                            <select id="cr10bbs" class="form-control">
+                                <option value="">Selecione</option>
+                                <option value="410">UTG</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">
+                            <label for="s6bbs">
+                                <strong>6bbs</strong>
+                            </label>
+                            <select id="s6bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cs6bbs">
+                                <strong>6bbs</strong>
+                            </label>
+                            <select id="cs6bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="r6bbs">
+                                <strong>6bbs</strong>
+                            </label>
+                            <select id="r6bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cr12bbs">
+                                <strong>12bbs</strong>
+                            </label>
+                            <select id="cr12bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td scope="row">
+                            <label for="s8bbs">
+                                <strong>8bbs</strong>
+                            </label>
+                            <select id="s8bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cs8bbs">
+                                <strong>8bbs</strong>
+                            </label>
+                            <select id="cs8bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="r8bbs">
+                                <strong>8bbs</strong>
+                            </label>
+                            <select id="r8bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="cr14bbs">
+                                <strong>14bbs</strong>
+                            </label>
+                            <select id="cr14bbs" class="form-control">
+                                <option value="">Selecione</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </div>
 </div>
 <div class="row">

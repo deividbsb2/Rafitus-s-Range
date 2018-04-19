@@ -1,0 +1,46 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Type</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Register types</h6>
+    <div class="row">
+      <div class="col-sm-6">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let type of types">
+              <th>{{type.id}}</th>
+              <td>{{type.name}}</td>
+              <td>
+                <button type="button" class="btn btn-light" (click)="edit(type)">
+                  <i class="fas fa-pencil-alt text-primary"></i>
+                </button>
+                <button type="button" class="btn btn-light" (click)="delete(type)">
+                  <i class="fas fa-trash-alt text-danger"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-6">
+        <form #typeForm="ngForm" novalidate (ngSubmit)="onSubmit(typeForm)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" [(ngModel)]="type.name" name="name" #name="ngModel" required placeholder="Name">
+            <div class="invalid-feedback">
+              Name is required
+            </div>
+            <input type="hidden" [(ngModel)]="type.id" #id="ngModel" name="id">
+          </div>
+          <button type="submit" class="btn btn-success" [disabled]="!typeForm.form.valid">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

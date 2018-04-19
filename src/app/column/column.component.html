@@ -1,0 +1,45 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Column</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Register columns</h6>
+    <div class="row">
+      <div class="col-sm-6">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let column of columns">
+              <th>{{column.id}}</th>
+              <td>{{column.name}}</td>
+              <td>
+                <button column="button" class="btn btn-light" (click)="edit(column)">
+                  <i class="fas fa-pencil-alt text-primary"></i>
+                </button>
+                <button column="button" class="btn btn-light" (click)="delete(column)">
+                  <i class="fas fa-trash-alt text-danger"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-6">
+        <form #columnForm="ngForm" novalidate (ngSubmit)="onSubmit(columnForm)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input column="text" class="form-control" id="name" [(ngModel)]="column.name" name="name" #name="ngModel" required placeholder="Name">
+            <div class="invalid-feedback">
+              Name is required
+            </div>
+          </div>
+          <button column="submit" class="btn btn-success" [disabled]="!columnForm.form.valid">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

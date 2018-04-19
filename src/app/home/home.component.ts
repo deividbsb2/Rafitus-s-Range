@@ -1,6 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import {RangeService} from '../range.service';
-import {Row} from '../row.model';
+import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, FormBuilder, Validators, NgForm } from '@angular/forms';
+import { Row } from './row.model';
+import { RangeService } from './range.service';
 
 @Component({
     selector: 'app-home',
@@ -8,17 +9,20 @@ import {Row} from '../row.model';
     styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-    rows:Row [];
-
-    constructor(private rangeService:RangeService) {
+    rows: Row[];
+    rangeForm: FormGroup;
+    constructor(private rangeService: RangeService, private fb: FormBuilder) {
     }
-
     ngOnInit() {
         this.getRows();
         this.reset();
+        this.rangeForm = this.fb.group({
+            s4bbs: '',
+            cs4bbs: ''
+        });
     }
 
-    getRows(color:string = 'table-success') {
+    getRows(color: string = 'table-success') {
         this.rangeService.getRows(color).subscribe(
             dados => {
                 this.rows = dados;

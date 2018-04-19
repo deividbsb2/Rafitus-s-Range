@@ -1,0 +1,1106 @@
+{
+  "rows": [
+    {
+      "id": 0,
+      "cells": [
+        {
+          "id": 0,
+          "name": "AA",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "AKs",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "AQs",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "AJs",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "ATs",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "A9s",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "A8s",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "A7s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "A6s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "A5s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "A4s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "A3s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "A2s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "cells": [
+        {
+          "id": 0,
+          "name": "AKo",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "KK",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "KQs",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "KJs",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "KTs",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "K9s",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "K8s",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "K7s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "K6s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "K5s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "K4s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "K3s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "K2s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "cells": [
+        {
+          "id": 0,
+          "name": "AQo",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "KQo",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "QQ",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "QJs",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "QTs",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "Q9s",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "Q8s",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "Q7s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "Q6s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "Q5s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "Q4s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "Q3s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "Q2s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "cells": [
+        {
+          "id": 0,
+          "name": "AJo",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "KJo",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "QJo",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "JJ",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "JTs",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "J9s",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "J8s",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "J7s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "J6s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "J5s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "J4s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "J3s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "J2s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "cells": [
+        {
+          "id": 0,
+          "name": "ATo",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "KTo",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "QTo",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "JTo",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "TT",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "T9s",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "T8s",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "T7s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "T6s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "T5s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "T4s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "T3s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "T2s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A9o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K9o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q9o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J9o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T9o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "99",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "98s",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "97s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "96s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "95s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "94s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "93s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "92s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A8o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K8o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q8o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J8o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T8o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "98o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "88",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "87s",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "86s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "85s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "84s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "83s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "82s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A7o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K7o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q7o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J7o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T7o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "97o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "87o",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "77",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "76s",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "75s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "74s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "73s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "72s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A6o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K6o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q6o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J6o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T6o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "96o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "86o",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "76o",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "66",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "65s",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "64s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "63s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "62s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A5o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K5o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q5o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J5o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T5o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "95o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "85o",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "75o",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "65o",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "55",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "54s",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "53s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "52s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A4o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K4o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q4o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J4o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T4o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "94o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "84o",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "74o",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "64o",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "54o",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "44",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "43s",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "42s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A3o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K3o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q3o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J3o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T3o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "93o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "83o",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "73o",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "63o",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "53o",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "43o",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "33",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "32s",
+          "color": "table-default"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "cells": [
+        {
+          "id": 0,
+          "name": "A2o",
+          "color": "table-default"
+        },
+        {
+          "id": 1,
+          "name": "K2o",
+          "color": "table-default"
+        },
+        {
+          "id": 2,
+          "name": "Q2o",
+          "color": "table-default"
+        },
+        {
+          "id": 3,
+          "name": "J2o",
+          "color": "table-default"
+        },
+        {
+          "id": 4,
+          "name": "T2o",
+          "color": "table-default"
+        },
+        {
+          "id": 5,
+          "name": "92o",
+          "color": "table-default"
+        },
+        {
+          "id": 6,
+          "name": "82o",
+          "color": "table-default"
+        },
+        {
+          "id": 7,
+          "name": "72o",
+          "color": "table-default"
+        },
+        {
+          "id": 8,
+          "name": "62o",
+          "color": "table-default"
+        },
+        {
+          "id": 9,
+          "name": "52o",
+          "color": "table-default"
+        },
+        {
+          "id": 10,
+          "name": "42o",
+          "color": "table-default"
+        },
+        {
+          "id": 11,
+          "name": "32o",
+          "color": "table-default"
+        },
+        {
+          "id": 12,
+          "name": "22",
+          "color": "table-default"
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "id": 1,
+      "name": "SHOVE"
+    },
+    {
+      "id": 2,
+      "name": "CALLING SHOVE"
+    },
+    {
+      "id": 3,
+      "name": "RESTEAL"
+    },
+    {
+      "id": 4,
+      "name": "CALLING RESTEAL"
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "4bbs"
+    },
+    {
+      "id": 2,
+      "name": "6bbs"
+    },
+    {
+      "id": 3,
+      "name": "8bbs"
+    },
+    {
+      "id": 4,
+      "name": "10bbs"
+    },
+    {
+      "id": 5,
+      "name": "12bbs"
+    },
+    {
+      "id": 8,
+      "name": "18bbs"
+    },
+    {
+      "id": 9,
+      "name": "20bbs"
+    },
+    {
+      "id": 10,
+      "name": "22bbs"
+    }
+  ],
+  "categories": [
+    {
+      "name": "UTG+1 vs UTG2",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "UTG vs UTG+1"
+    },
+    {
+      "id": 4,
+      "name": "UTG+1 vs MP2"
+    },
+    {
+      "name": "UTG",
+      "id": 5
+    }
+  ],
+  "settings": [
+    {
+      "cells": [
+        {
+          "id": 0,
+          "name": "AA",
+          "color": "bg-primary"
+        },
+        {
+          "id": 1,
+          "name": "AKs",
+          "color": "bg-primary"
+        }
+      ],
+      "columnId": 1,
+      "column": {
+        "id": 1,
+        "name": "SHOVE"
+      },
+      "typeId": 1,
+      "type": {
+        "id": 1,
+        "name": "4bbs"
+      },
+      "categoryId": 5,
+      "category": {
+        "name": "UTG",
+        "id": 5
+      },
+      "id": 1
+    },
+    {
+      "cells": [
+        {
+          "id": 0,
+          "name": "AKo",
+          "color": "bg-secondary"
+        },
+        {
+          "id": 1,
+          "name": "KK",
+          "color": "bg-secondary"
+        }
+      ],
+      "columnId": 1,
+      "column": {
+        "id": 1,
+        "name": "SHOVE"
+      },
+      "typeId": 2,
+      "type": {
+        "id": 2,
+        "name": "6bbs"
+      },
+      "categoryId": 4,
+      "category": {
+        "id": 4,
+        "name": "UTG+1 vs MP2"
+      },
+      "id": 2
+    },
+    {
+      "cells": [
+        {
+          "id": 0,
+          "name": "AQo",
+          "color": "bg-success"
+        },
+        {
+          "id": 1,
+          "name": "KQo",
+          "color": "bg-success"
+        }
+      ],
+      "columnId": 1,
+      "column": {
+        "id": 1,
+        "name": "SHOVE"
+      },
+      "typeId": 1,
+      "type": {
+        "id": 1,
+        "name": "4bbs"
+      },
+      "categoryId": 3,
+      "category": {
+        "id": 3,
+        "name": "UTG vs UTG+1"
+      },
+      "id": 3
+    },
+    {
+      "cells": [
+        {
+          "id": 0,
+          "name": "ATo",
+          "color": "bg-warning"
+        },
+        {
+          "id": 1,
+          "name": "KTo",
+          "color": "bg-warning"
+        }
+      ],
+      "columnId": 3,
+      "column": {
+        "id": 3,
+        "name": "RESTEAL"
+      },
+      "typeId": 1,
+      "type": {
+        "id": 1,
+        "name": "4bbs"
+      },
+      "categoryId": 3,
+      "category": {
+        "id": 3,
+        "name": "UTG vs UTG+1"
+      },
+      "id": 4
+    }
+  ]
+}

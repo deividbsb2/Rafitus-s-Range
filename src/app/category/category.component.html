@@ -1,0 +1,47 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Category</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Register categories</h6>
+    <div class="row">
+      <div class="col-sm-6">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let category of categories">
+              <th>{{category.id}}</th>
+              <td>{{category.name}}</td>
+              <td>
+                <button type="button" class="btn btn-light" (click)="edit(category)">
+                  <i class="fas fa-pencil-alt text-primary"></i>
+                </button>
+                <button type="button" class="btn btn-light" (click)="delete(category)">
+                  <i class="fas fa-trash-alt text-danger"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-6">
+        <form #categoryForm="ngForm" novalidate (ngSubmit)="onSubmit(categoryForm)">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name"
+              [(ngModel)]="category.name" name="name" #name="ngModel" required placeholder="Name">
+            <div class="invalid-feedback">
+              Name is required
+            </div>
+            <input type="hidden" [(ngModel)]="category.id" #id="ngModel" name="id">
+          </div>
+          <button type="submit" class="btn btn-success" [disabled]="!categoryForm.form.valid">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

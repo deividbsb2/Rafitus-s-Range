@@ -1,0 +1,87 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Setting</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Register setting</h6>
+    <form [formGroup]="settingForm" novalidate (ngSubmit)="save()">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="form-group">
+            <label for="column">Column</label>
+            <input type="text" placeholder="Digite for filter columns..." id="column" class="form-control" formControlName="columnControl"
+            />
+            <button type="button" class="btn btn-light" *ngIf="chipColumn">
+              {{column.name}}&nbsp;
+              <button type="button" class="close" aria-label="Close" (click)="closeColumn()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </button>
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action" style="cursor: pointer" (click)="checkColumn(col)" *ngFor="let col of columns">{{col.name}}</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="type">Type</label>
+            <input type="text" id="type" class="form-control" placeholder="Digite for filter types..." formControlName="typeControl"
+            />
+            <button type="button" class="btn btn-light" *ngIf="chipType">
+              {{type.name}}&nbsp;
+              <button type="button" class="close" aria-label="Close" (click)="closeType()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </button>
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action" style="cursor: pointer" (click)="checkType(type)" *ngFor="let type of types">{{type.name}}</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="category">Category</label>
+            <input type="text" id="category" class="form-control" placeholder="Digite for filter categories..." formControlName="categoryControl"
+            />
+            <button type="button" class="btn btn-light" *ngIf="chipCategory">
+              {{category.name}}&nbsp;
+              <button type="button" class="close" aria-label="Close" (click)="closeCategory()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </button>
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action" style="cursor: pointer" (click)="checkCategory(category)"
+                *ngFor="let category of categories">{{category.name}}</button>
+            </div>
+          </div>
+          <label>Color</label>
+          <div class="form-group">
+            <button type="button" class="btn btn-lg" [class.btn-outline-primary]="!colors[0].selected" [class.btn-primary]="colors[0].selected"
+              (click)="onClick('bg-primary')">&nbsp;</button>
+            <button type="button" class="btn btn-lg" [class.btn-outline-secondary]="!colors[1].selected" [class.btn-secondary]="colors[1].selected"
+              (click)="onClick('bg-secondary')">&nbsp;</button>
+            <button type="button" class="btn btn-lg" [class.btn-outline-success]="!colors[2].selected" [class.btn-success]="colors[2].selected"
+              (click)="onClick('bg-success')">&nbsp;</button>
+            <button type="button" class="btn btn-lg" [class.btn-outline-warning]="!colors[3].selected" [class.btn-warning]="colors[3].selected"
+              (click)="onClick('bg-warning')">&nbsp;</button>
+            <button type="button" class="btn btn-lg" [class.btn-outline-danger]="!colors[4].selected" [class.btn-danger]="colors[4].selected"
+              (click)="onClick('bg-danger')">&nbsp;</button>
+            <button type="button" class="btn btn-lg" [class.btn-outline-info]="!colors[5].selected" [class.btn-info]="colors[5].selected"
+              (click)="onClick('bg-info')">&nbsp;</button>
+            <button type="button" class="btn btn-lg" [class.btn-outline-dark]="!colors[6].selected" [class.btn-dark]="colors[6].selected"
+              (click)="onClick('bg-dark')">&nbsp;</button>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="table-responsive">
+            <table class="table table-sm table-bordered">
+              <tbody>
+                <tr align="center" *ngFor="let row of rows">
+                  <td *ngFor="let cell of row.cells" style="cursor: pointer" [class]="cell.color" [style.color]="cell.color !== 'table-default' ? 'white' : ''"
+                    (click)="selectColor(cell)" (mouseover)="onOver(cell)" (mouseout)="onOut(cell)">{{cell.name}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-success" [disabled]="settingForm.invalid">Save</button>
+      <button type="button" class="btn btn-dark" (click)="reset()">Reset</button>
+      <button *ngIf="setting.id" type="button" class="btn btn-danger" (click)="delete()">Delete</button>
+    </form>
+  </div>
+</div>
